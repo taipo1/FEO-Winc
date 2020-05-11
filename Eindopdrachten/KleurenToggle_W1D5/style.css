@@ -1,0 +1,139 @@
+#body-color{
+    background-color:lightslategrey;
+    transition: ease-in all 0.4s;
+}
+
+.btn-toggle-nav {
+    display:flex;
+    background-image: url(menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    
+}
+#dropdown-nav {
+    margin:30px 0px 0px -150px;
+    transition:ease-out all 0.55s;
+    width:110px;
+}
+
+.btn-toggle-nav:hover > #dropdown-nav {
+    transition:ease-out all 0.55s;
+    transition-delay: 0.1s;
+}
+
+#dropdown-nav ul{
+    list-style: none;
+    padding-left:0;
+
+}
+#dropdown-nav ul li {
+    white-space: nowrap;
+    line-height: 40px;
+    width:100%;
+    padding-left:10px;
+    background-color:white;
+    border-bottom:1px solid black;
+    cursor:pointer;
+    font-family: Helvetica, Arial;
+    font-weight:300;
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 0.5s ease-out;
+    border-right:1px solid black;
+
+}
+#dropdown-nav ul li:hover{
+    background-position:left bottom;
+}
+.text-box{
+    text-align:center;
+    color:whitesmoke;
+    font-family: Helvetica, Arial;
+    text-transform: uppercase;
+}
+
+.text-box p{
+    font-weight: 600;
+    font-size:11px;
+    margin-top:40vh;
+
+}
+
+#color-heading{
+    margin-top:40vh;
+    font-size:6em;
+    font-weight:1000;
+    letter-spacing:10px;
+    font-family: Helvetica, Arial;
+}
+
+
+#gray{
+    background: linear-gradient(to right, lightslategrey 50%, white 50%);
+    border-radius:0px 5px 0px 0px;
+    border-top:1px solid black;
+}
+
+#gray:hover{
+    background-position:left bottom;
+
+
+
+}
+#green{
+    background: linear-gradient(to right, limegreen 50%, white 50%);
+}
+
+#green:hover{
+    background-position:left bottom;
+
+}
+#blue{
+    background: linear-gradient(to right, skyblue 50%, white 50%);
+}
+#blue:hover{
+    background-position:left bottom;
+}
+
+
+
+#red {
+    background: linear-gradient(to right, crimson 50%, white 50%);
+}
+
+#red:hover{
+    background-position:left bottom;
+}
+
+#orange{
+    background: linear-gradient(to right, orangered 50%, white 50%);
+}
+
+
+#orange:hover{
+    background-position:left bottom;
+
+
+}
+#hotpink{
+    background: linear-gradient(to right, hotpink 50%, white 50%);
+}
+
+#hotpink:hover{
+    background-position:left bottom;
+
+
+}
+
+#gradient{
+    background: linear-gradient(to right, darkorchid 50%, white 50%);
+    border-radius:0px 0px 5px 0px;
+
+}
+#gradient:hover{
+    background-position:left bottom;
+}

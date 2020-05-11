@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div id="game">
+        <h1>Galgje de game</h1>
+        <p>"No people will actually be harmed during this game"</p>
+        <form id="form-wrapper">
+            <input type="text" id="userGuess" maxlength ="1"> 
+            <input type="submit" value="guess" id="input-button">
+        </form>
+
+        <form><input type="submit" value="reset"></form>
+        <h3>Current Word</h3>
+        <p id="letter-slots"></p>
+        <p id="gameState"> You have <span id="lifeCount">5</span> lives remaining</p>
+    </div>
+    <div id="gl-container">
+        <ul id="guessed-letters">
+            
+        </ul>
+    </div>
+</body>
+</html>

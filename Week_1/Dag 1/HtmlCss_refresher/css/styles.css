@@ -1,0 +1,97 @@
+body{
+  width:80%;
+  margin:10%;
+ }
+ 
+ h3{
+     line-height:1px;
+     margin-bottom:0;
+     margin-top:20px;
+     width:60%;
+     padding-left:15px
+   }
+   
+   p{
+     padding-left:15px;
+   }
+   
+   .sub-title {
+     color:grey;
+   
+   }
+   
+   b{
+     font-weight: 600;
+   }
+   .request-text{
+     color:#323232;
+   }
+   .image-placeholder{
+     margin-top:10px;
+     width:40px;
+     height:40px;
+     float:right;
+     margin-right:15px;
+     background-color:red;
+   }
+   
+   .cardwrapper {
+     border:1px solid lightgrey;
+     border-radius:5px;
+     width:21%;
+     float:left;
+     margin-left:15px;
+     box-shadow: 2px 3px 8px 0.01px lightgrey ;
+   }
+   
+   .request-text{
+     width:88%;
+   }
+   
+   .button-wrapper{
+     border-top: 1px solid lightgrey;
+     width:100%;
+     padding-top: 10px;
+ 
+   }
+ 
+   .green-button{
+     border: 1px solid green;
+     width:140px;
+     height:40px;
+     float:left;
+     color:green;
+     border-radius:5px 0px 0px 5px;
+     margin-left:20px;
+     margin-bottom:10px;
+   }
+   .red-button{
+     border: 1px solid red;
+     width:140px;
+     height:40px;
+     float:left;
+     color:red;
+     border-radius:0px 5px 5px 0px;
+   }
+   
+   .red-button:hover{
+     color:white;
+     background-color:red;
+     transition:ease all 0.5s;
+   }
+   .green-button:hover{
+     color:white;
+     background-color:green;
+     transition:ease all 0.5s;
+   }
+   
+   button{
+     background-color:white;
+     font-weight:700;
+     font-family:arial;
+   }
+   
+   .request-text {
+     font-size:0.9em;
+     margin-bottom:25px;
+   }
