@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winc Acedemy Film database</title>
+    <script defer src="javascript/db.js"></script>
+    <script defer src="javascript/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" >
+    <link rel="stylesheet" type="text/css" href="css/movieBackground.css">
+</head>
+<body>
+    <nav>
+        <form id="filter-navigation">
+            <img src="assets/Wincflix.png">
+            <div id="input-wrapper">
+                <input type="radio" class="active" checked="checked" value="" name="filter-navigation" id="alle"><label id="label-alle" for="alle">Alle films</label>
+                <input type="radio" value="" name="filter-navigation" id="2014">               <label id="label-2014" for="2014">2014 of nieuwer</label>
+                <input type="radio" value="" name="filter-navigation" id="Avengers">           <label id="label-Avengers" for="Avengers">Avenger films</label>
+                <input type="radio" value="" name="filter-navigation" id="X-Men">              <label id="label-X-Men" for="X-Men">X-men films</label>
+                <input type="radio" value="" name="filter-navigation" id="Princess">           <label id="label-Princess" for="Princess">Princess films</label>
+                <input type="radio" value="" name="filter-navigation" id="Batman">             <label id="label-Batman" for="Batman">Batman films</label>
+            </div> 
+        </form>
+        <form id="search-bar">
+            <input id="search" type="text" placeholder="Search...">
+        </form>
+    </nav>
+    <main>
+        <ul id="movie-list">
+
+        </ul>
+    </main>
+</body>
+</html>
