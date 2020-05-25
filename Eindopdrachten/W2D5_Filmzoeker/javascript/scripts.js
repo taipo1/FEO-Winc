@@ -22,7 +22,7 @@ const generateHTML = ((selectedMovie, movie) => {
     const link = generateChildElement(htmlContainer, 'a', 'button','IMDb');
     link.href= `https://imdb.com/title/${selectedMovie.imdbID}`;
 });
-// Generate any child element you want >> https://bit.ly/3cy9z3n <<
+// Generate any child element you want 
 const generateChildElement = ((parent, element, selector , innerHTML) =>{
     const container = document.createElement(element);
     container.className = selector;

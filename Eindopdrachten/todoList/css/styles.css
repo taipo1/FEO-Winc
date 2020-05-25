@@ -1,0 +1,40 @@
+body {
+    background-color:darkgray;
+}
+
+.container{
+    margin:auto;
+    width:30%;
+    border-radius:5px;
+    background-color:rgb(240, 240, 240);
+}
+#task-container{
+    color:#2d2d2d;
+    padding-left:10px;
+    padding-bottom:20px;
+}
+
+#task-container li{
+    list-style:none;
+    font-family: Helvetica, sans-serif;
+    font-size:1.3em;
+    margin:10px;
+
+}
+
+#task-container li button{
+    float:right;
+    border:none;
+    background-color:rgb(240, 240, 240);
+}
+
+#task-container li button:hover{
+    border-bottom: 2px solid red;
+    transition:all;
+}
+
+.form-container{
+    padding-top:15px;
+    display:flex;
+    justify-content: center;
+}

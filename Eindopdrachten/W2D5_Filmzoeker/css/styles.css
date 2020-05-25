@@ -113,8 +113,8 @@ li {
     margin:0 auto;
     margin-bottom:0px;
     transform:scale(0.1);
-    transition-delay: 0.2;
-    transition:all ease-out  0.3s;
+    transition-delay: 0.1;
+    transition:all ease-out  0.4s;
     
 }
 
@@ -128,10 +128,12 @@ li {
     padding-top:40px;
     transform: scale(0.1);
     transition-delay: 0.2;
+    opacity:0;
     transition:all ease-out 0.3s;
 }
 
 #movie-list li:hover .movie-hover h3{
+    opacity:1;
     margin-top:0px;
     transform:scale(1) 
  }
