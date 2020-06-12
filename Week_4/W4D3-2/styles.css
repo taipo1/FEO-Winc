@@ -1,0 +1,42 @@
+#first-link:hover {
+    color:lightskyblue;
+    font-weight:800;
+}
+
+#second-link:active {
+    color:red;
+    font-style: italic;
+}
+
+#third-link:visited {
+    color:yellow;
+}
+
+input:focus {
+    color:green;
+    font-size:20px;
+}
+nav {
+    background-color:darkslateblue;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+}
+
+ul li + li {
+    margin-left:20px;
+}
+
+.current-page {
+    background-color:#ff6d00;
+}
+
+ul li:hover {
+    background-color:lightskyblue;
+}
+
+ul li input:focus {
+    border:1px solid aqua ;
+}
