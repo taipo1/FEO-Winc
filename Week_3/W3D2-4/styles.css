@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 button {
   display: block;
   font-size: 6em;
@@ -28,4 +29,36 @@ div.resolved {
 
 div.errored {
   background-color: red;
+=======
+button {
+  display: block;
+  font-size: 6em;
+  padding: 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+div.promises {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promises div {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: lightblue;
+}
+
+ul {
+  list-style: none;
+}
+
+div.resolved {
+  background-color: green;
+}
+
+div.errored {
+  background-color: red;
+>>>>>>> ddbde54c2d318be8f18a81f211fb6f4b9da7a1a8
 }
